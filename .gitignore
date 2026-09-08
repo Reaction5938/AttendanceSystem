@@ -1,0 +1,16 @@
+# ビルド生成物・実行ファイル
+*.exe
+*.o
+*.obj
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# VSCode ローカル設定（個人環境依存のため）
+.vscode/
+build/
+
+# OS固有の隠しファイル
+Thumbs.db
+.DS_Store
