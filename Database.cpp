@@ -8,7 +8,7 @@ bool Database::Connect(){
 
     conn = PQconnectdb(
         
-        "host= YOUR_HOST "
+        "host=YOUR_HOST "
         
         "port=5432"
 
